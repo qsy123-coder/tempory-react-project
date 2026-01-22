@@ -55,7 +55,7 @@ const SingleCocktail = () => {
   };
   React.useEffect(() => {
     fetchDrinks();
-  }, []);
+  }, [id]);
 
   if (loading) {
     return <Loading />;
